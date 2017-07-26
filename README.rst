@@ -1,11 +1,11 @@
 Celery Flower
 =============
 
-.. image:: https://img.shields.io/pypi/v/flower.svg
-    :target: https://pypi.python.org/pypi/flower
+.. image:: https://img.shields.io/pypi/v/celery-flower.svg
+    :target: https://pypi.python.org/pypi/celery-flower
 
-.. image:: https://travis-ci.org/mher/flower.svg?branch=master
-        :target: https://travis-ci.org/mher/flower
+.. image:: https://travis-ci.org/jat001/flower.svg?branch=master
+        :target: https://travis-ci.org/jat001/flower
 
 Flower is a web based tool for monitoring and administrating Celery clusters.
 
@@ -59,7 +59,7 @@ Or terminate executing task by: ::
 
 Or receive task completion events in real-time:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
     var ws = new WebSocket('ws://localhost:5555/api/task/events/task-succeeded/');
     ws.onmessage = function (event) {
@@ -80,7 +80,7 @@ PyPI version: ::
 
 Development version: ::
 
-    $ pip install https://github.com/mher/flower/zipball/master
+    $ pip install https://github.com/jat001/flower/zipball/master
 
 Usage
 -----
@@ -122,7 +122,7 @@ Getting help
 Please head over to #celery IRC channel on irc.freenode.net or
 `open an issue`_.
 
-.. _open an issue: https://github.com/mher/flower/issues
+.. _open an issue: https://github.com/jat001/flower/issues
 
 Contributing
 ------------
@@ -133,5 +133,5 @@ Make sure you add yourself to CONTRIBUTORS_.
 
 If you are interested in maintaining the project please contact.
 
-.. _`the repository`: https://github.com/mher/flower
-.. _CONTRIBUTORS: https://github.com/mher/flower/blob/master/CONTRIBUTORS
+.. _`the repository`: https://github.com/jat001/flower
+.. _CONTRIBUTORS: https://github.com/jat001/flower/blob/master/CONTRIBUTORS
