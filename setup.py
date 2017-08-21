@@ -50,13 +50,13 @@ if sys.version_info < (3, 0):
 
 
 setup(
-    name='flower',
+    name='celery-flower',
     version=get_package_version(),
     description='Celery Flower',
     long_description=open('README.rst').read(),
-    author='Mher Movsisyan',
-    author_email='mher.movsisyan@gmail.com',
-    url='https://github.com/mher/flower',
+    author='Jat',
+    author_email='chat@jat.email',
+    url='https://github.com/jat001/flower',
     license='BSD',
     classifiers=classifiers,
     packages=find_packages(exclude=['tests', 'tests.*']),
